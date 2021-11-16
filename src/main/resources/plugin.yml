@@ -1,0 +1,15 @@
+name: WhereIs
+version: '${project.version}'
+main: me.mrlukey676.whereis.WhereIs
+api-version: 1.17
+author: MrLukey676
+commands:
+  whereis:
+    description: Core command of the WhereIs plugin.
+    usage: /whereis [player]
+  wiworld:
+    description: Gets the world name of a player.
+    usage: /wiworld [player]
+  wicoords:
+    description: Gets the coordinates of a player.
+    usage: /wicoords [player]
